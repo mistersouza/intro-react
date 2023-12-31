@@ -1,13 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
-import './components/Greeting'
-import Greeting from './components/Greeting';
-
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 function App() {
   return (
     <div className="App">
-      <Greeting />
+     <MethodsAsPropsParent />
     </div>
   );
 }

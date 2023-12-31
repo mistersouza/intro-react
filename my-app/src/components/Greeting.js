@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Greeting = () => <h1>Hello, ReactJS</h1>
+const Greeting = ({ greeting }) => <h1>{ greeting }</h1>
 
 export default Greeting
